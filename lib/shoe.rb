@@ -6,6 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
+    BRANDS.push(brand)
   end
 
   def cobble
